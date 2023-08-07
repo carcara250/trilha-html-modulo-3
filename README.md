@@ -17,3 +17,7 @@ Sigam as intruções da chamada do vídeo. Acredito que por lá, ficará mais f�
 - [Wikipedia](https://pt.wikipedia.org/)
 
 
+ Obs.: Foi recriada a nova estrutura usando carrocel e fremeworks como: Bootstraps, jaquery e ajax.
+
+
+ Desde de já agradeço ao professor da DIO.me que propocionou tal evento...

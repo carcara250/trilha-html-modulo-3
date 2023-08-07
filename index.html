@@ -1,44 +1,354 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página Principal</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Página Principal - A Historia de Bruce Lee</title>
+
 </head>
+
 <body>
-
-    <div>   
-        <div class="logo">
-            <img src="assets/images/logo.png" width="200"/>
+    <header>
+        <div>
+            <div class="logo" style="margin: 20px 10px 10px 15px;">
+                <img src="assets/image/logo_wiki_2.jpg" class="img-circle" alt="Logo do wikipedia" width="70"
+                    height="60">
+            </div>
         </div>
-    </div>
+        <div class="container">
+            <br>
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                </ol>
 
-    <div class="bar"></div>
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+
+                    <div class="item active">
+                        <img src="assets/image/bruce_1.jpg" alt="Bruce Lee - Jogo da Morte" width="250" height="150">
+                        <div class="carousel-caption"><br>
+                            <p style="color: black;"> Filme o jogo da morte</p>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <img src="assets/image/bruce_2.jpg" alt="Bruce Lee - Operação Dragão" width="150" height="150">
+                        <div class="carousel-caption">
+                            <p style="color: black;">Filme Operação Dragão</p>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <img src="assets/image/bruce_3.jpg" alt="Bruce Lee - O Voo do Dragão" width="150" height="150">
+                        <div class="carousel-caption">
+                            <p style="color: black;">Filme o Voo do Dragão</p>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <img src="assets/image/bruce_5.jpg" alt="Bruce Lee - O Dragão Chines" width="250" height="150">
+                        <div class="carousel-caption">
+                            <p style="color: black;"> Filme o Dragão Chines</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <div class="bar">
+        <nav id="nav_bar">
+            <div class="w3-bar w3-border w3-light-grey">
+                <a href="index.html" class="w3-bar-item w3-button">Pagina Inicial</a>
+                <a href="historia.html" class="w3-bar-item w3-button">Ver Historia</a>
+                <a href="filmes.html" class="w3-bar-item w3-button">Assistir Filmes</a>
+                <a href="sobre.html" class="w3-bar-item w3-button">Sobre</a>
+                <a href="http://google.com.br" class="w3-bar-item w3-button w3-green w3-right"
+                    target="_blank">Buscar</a>
+            </div>
+
+        </nav>
+    </div>
 
     <div class="content">
         <div class="sidebar">
-            <h2>Título</h2>
+            <h2>Filmes de Bruce Lee</h2>
             <ul>
-                <li><a href="#">Links</a></li>
+                <li><a href="https://www.youtube.com/watch?v=OBnymdSfaBw" target="_blank"><a> Dragão Chines</a></li>
             </ul>
+            <ul>
+                <li><a href="https://www.youtube.com/watch?v=ytuXO4gvxpE" target="_blank">Bruce Lee</a></li>
+            </ul>
+            <ul>
+                <li><a href="https://www.youtube.com/watch?v=Pk8_cD5EqzU&t=201s" target="_blank">O jogo da Morte 1</a>
+                </li>
+            </ul>
+            <ul>
+                <li><a href="https://www.youtube.com/watch?v=2-IT1Mm2MBM" target="_blank">O Jogo da Morte 2</a></li>
+                </ui>
+                <ul>
+                    <li><a href="https://www.youtube.com/watch?v=Yf6kkn1f3Dw" target="_blank">Ipman o Grande Mestre</a>
+                    </li>
+                </ul>
         </div>
+        <main>
+            <div class="main">
+                <H1>A Verdadeira Historia de Bruce Lee</H1>
+                <p><strong style="font-size: 15px; font: justify;"><i>Lee Jun-fan</i></strong> (chinês tradicional: 李振藩;
+                    São Francisco,
+                    27 de
+                    novembro de 1940 –
+                    Kowloon, 20 de julho de
+                    1973), conhecido mundialmente como Bruce Lee, foi um artista marcial, ator, diretor de cinema,
+                    produtor cinematográfico, roteirista, instrutor de artes marciais, filósofo e autor
+                    sino-americano.[6] Ele foi o fundador do Jeet Kune Do, uma filosofia híbrida de artes marciais
+                    derivada de diferentes disciplinas de combate, que, muitas vezes, é creditada por pavimentar o
+                    caminho para as Artes Marciais Mistas (do inglês, MMA: Mixed Martial Arts). Lee é considerado por
+                    comentaristas/críticos, pela mídia e por outros artistas marciais o mais influente artista marcial
+                    de todos os tempos e um ícone da cultura pop do século XX, que fez a ponte entre o Oriente e o
+                    Ocidente. Ele é creditado por ter ajudado a mudar a maneira como os asiáticos eram apresentados nos
+                    filmes americanos.[7] Filho da estrela de ópera cantonesa Lee Hoi-chuen, Bruce Lee nasceu na área de
+                    Chinatown, em São Francisco, nos Estados Unidos. Seus pais eram de Hong Kong (então, colônia
+                    britânica), por isso foi criado com sua família lá, em Kowloon.[8] Ele foi apresentado à indústria
+                    cinematográfica por seu pai e apareceu em vários filmes como ator infantil. Lee mudou-se para os
+                    Estados Unidos aos 18 anos para receber seu ensino superior na Universidade de Washington em
+                    Seattle,[9] e foi nessa época que ele começou a ensinar artes marciais. Seus filmes produzidos em
+                    Hong Kong e Hollywood elevaram o tradicional filme de artes marciais a um novo nível de popularidade
+                    e aclamação, tendo despertado um grande interesse na nação chinesa, que se mantém até os dias
+                    atuais. A direção e o tom de seus filmes influenciaram e mudaram radicalmente os filmes de artes
+                    marciais e as artes marciais em geral em todo o mundo.[10]
 
-        <div class="main">
-            
-        </div>
+                    Ele foi conhecido por seus papéis em cinco longas-metragens de artes marciais no início dos anos 70:
+                    The Big Boss (O Dragão Chinês, 1971) e Fist of Fury (A Fúria do Dragão, 1972), de Lo Wei; The Way of
+                    the Dragon (O Voo do Dragão, 1972), da Golden Harvest, dirigida e escrita por Bruce Lee; Enter the
+                    Dragon (Operação Dragão, 1973), da Warner Brothers e da Golden Harvest, e Game of Death (Jogo da
+                    Morte, 1978), ambas dirigidas por Robert Clouse. Lee se tornou uma figura icônica conhecida em todo
+                    o mundo, especialmente entre os chineses, com base em sua representação do nacionalismo chinês em
+                    seus filmes e entre asiático-americanos, por desafiar os estereótipos associados ao homem asiático
+                    emasculado. Ele treinou a arte do Wing Chun e, mais tarde, combinou suas outras influências de
+                    várias fontes no espírito de sua filosofia pessoal de artes marciais, que ele apelidou de Jeet Kune
+                    Do (O Caminho do Punho Interceptador). Lee tinha residências em Hong Kong e Seattle.</p><br>
+                <hr>
+                <h2>Biografia</h2>
+                <h3><strong>Primeiros anos</strong></h3>
+                <p style="font: justify;">No ano e na hora do lendário dragão chinês, Bruce Lee nascia no Hospital
+                    Chinês de Chinatown, em São
+                    Francisco, na Califórnia, durante uma turnê de ópera chinesa, da qual seus pais eram integrantes.
+                    Voltou para Hong Kong (colônia britânica até 1997) com apenas três meses de idade, cresceu e viveu
+                    lá até o fim de sua adolescência. Seu pai se chamava Lee Hoi-chuen, e sua mãe, Grace Ho. Bruce foi o
+                    quarto de cinco filhos. Por seus pais serem artistas da ópera chinesa, Bruce atuou em vários filmes
+                    chineses durante sua infância.</p>
+                <h3><strong>Nomes</strong></h3>
+                <p>O nome de nascimento era Lee Jun-fan (chinês tradicional: 李振藩). O nome, homofonicamente, significa
+                    "retornar de novo". O nome foi-lhe dado por sua mãe, que sentia que ele retornaria aos Estados
+                    Unidos quando tivesse idade para tanto. Por causa do espírito supersticioso da sua mãe, ela o
+                    apelidou de Sai-fon (細鳳), que é um nome feminino que significa "pequena fênix". O nome em inglês
+                    "Bruce" fora dado pela médica do hospital, Mary Glover. Bruce Lee tinha outros três nomes em chinês:
+                    Li Yuanxin (李源鑫), um nome de família; Li Yuanjian (李元鑒), um nome de estudante enquanto ele cursava
+                    em La Salle College, em Hong Kong; e seu nome artístico, Li Xiaolong (李小龍; Xiaolong significa
+                    "pequeno dragão").
 
+                    O nome de batismo de Bruce Lee, Jun-fan, era escrito originalmente 震藩. Porém, o caractere chinês Jun
+                    (震) era idêntico ao de uma parte do nome de seu avô, Lee Jun-biu (李震彪). Logo, o caractere chinês
+                    para Jun no nome de Lee fora mudado para o homófono 振, para evitar o tabu nominal dentro da tradição
+                    chinesa.</p><br>
+
+                <h3><strong>Familia</strong></h3>
+                <p>O pai de Bruce, Lee Hoi-cuen, foi um dos maiores intérpretes de ópera cantonesa e ator do cinema
+                    chinês. Completou um ano de turnê com a ópera cantonesa nas vésperas da invasão japonesa em Hong
+                    Kong durante a Segunda Guerra Mundial. Lee Hoi-chuen ficou em turnê nos Estados Unidos por muitos
+                    anos, realizando apresentações em inúmeras comunidades chinesas. Lee Hoi-chuen decidiu voltar para
+                    Hong Kong depois que sua esposa deu à luz Bruce, em 1940. Poucos meses após retornarem, Hong Kong
+                    foi invadida e viveu três anos e oito meses sob ocupação japonesa. A família Lee sobreviveu
+                    razoavelmente bem aos tempos de guerra. Com o fim da guerra, o pai de Bruce decidiu retomar sua
+                    carreira de dentista e se tornou uma estrela de maior sucesso durante os anos de "reconstrução" de
+                    Hong Kong.
+
+                    A mãe de Bruce Lee, Grace Ho, pertencia a um dos clãs mais ricos e poderosos em Hong Kong, os
+                    Senhores de Ferro. Ela era sobrinha de Sir Robert Ho-tung, o patriarca do clã e um importante
+                    empresário euro-asiático de Hong Kong. Com isso, o jovem Bruce Lee cresceu num ambiente rico e
+                    privilegiado. Também pelo lado materno, Bruce Lee era familiar de Stanley Ho, um importante magnata
+                    de casinos de Macau.</p><br>
+                <h2><strong>1940 a 1958: Primeiros papéis, estudo e iniciação nas artes marciais</strong></h2>
+
+                <p>O pai de Lee, Lee Hoi-chuen, foi uma famosa estrela da ópera cantonesa. Como resultado, o jovem Lee
+                    foi apresentado ao mundo do cinema desde muito jovem e apareceu em vários filmes quando criança. Lee
+                    teve seu primeiro papel como bebê, no filme Golden Gate Girl.[16] Aos nove anos, ele coestrelou com
+                    seu pai em The Kid (1950), baseado em um personagem de quadrinhos. Foi seu primeiro papel
+                    principal.[17] Quando Lee completou 18 anos, já tinha aparecido em 20 filmes.[18]</p>
+
+                <img class="item_foto_1" src="assets/image/lee_ipman.jpg" alt="Lee e Ipman">
+                <p class="text_1">Depois de estudar na Tak Sun School (ficava a dois quarteirões de sua casa, na 218
+                    Nathan Road,
+                    Kowloon), Lee entrou numa rígida escola de ensino médio, a La Salle College, entre 1950 e 1952 (com
+                    12 anos).[19] Em 1956, devido ao fraco desempenho acadêmico e possivelmente a uma má conduta, foi
+                    transferido para o St. Francis Xavier's College, onde seria orientado pelo irmão Edward, professor e
+                    treinador da equipe de boxe da escola.
+
+                    Depois que Lee se envolveu em várias lutas de rua, seus pais decidiram que ele precisava ser
+                    treinado em artes marciais. O amigo de Lee, William Chemung, o apresentou a Yip Man, mas[22] ele
+                    foi rejeitado por causa da regra de longa data no mundo das artes marciais chinesas de não ensinar
+                    estrangeiros.[23] Sua formação de um quarto alemã por parte de sua mãe seria um obstáculo inicial
+                    para seu treinamento de Wing Chun; no entanto, Cheung o recomendou, e Lee foi aceito na escola.[24]
+                    Lee começou a treinar Wing Chun com Yip Man. Yip tentou evitar que seus alunos lutassem nas
+                    gangues de rua de Hong Kong, incentivando-os a lutar em competições organizadas.[26] Depois de um
+                    ano de treinamento de Wing Chun, a maioria dos outros alunos de Yip Man se recusou a treinar com Lee
+                    porque soube da sua ascendência mista (os chineses eram contra o ensino de suas técnicas de artes
+                    marciais a não asiáticos). O sparring de Lee, Hawkins Cheung, afirma: "Provavelmente, menos
+                    de seis pessoas em todo o clã Wing Chun foram ensinadas pessoalmente, ou mesmo parcialmente
+                    ensinadas, por Yip Man". No entanto, Lee mostrou um grande interesse no Wing Chun e continuou a
+                    treinar em particular com Yip Man, William Cheung e Wong Shun-leung.[30]
+
+                    Em 1958, Bruce Lee venceu o Torneio Interescolar de Boxe de Hong Kong, eliminando o campeão
+                    anterior, Gary Elms, na final.[20] Também foi dançarino, tendo vencido o Campeonato de Chá-chá-chá
+                    da Colônia da Coroa Britânica (Hong Kong) no mesmo ano.</p>
+
+                <h3><strong>1959 a 1964: Estudos contínuos e descoberta das artes marciais</strong></h3>
+
+                <p>Até o final da adolescência, as brigas de rua de Lee se tornaram mais frequentes e incluíam bater no
+                    filho de uma temida tríade familiar. Em 1958, depois que alunos de Choy Li Fut, uma escola rival
+                    de artes marciais, desafiaram a escola de Wing Chun de Lee, ele se envolveu em uma luta em um
+                    telhado. Em resposta a um soco injusto de outro menino, Bruce espancou-o tanto que ele arrancou um
+                    dente, levando os pais do menino a uma queixa à polícia. A mãe de Lee teve que ir a uma delegacia de
+                    polícia e assinar um documento dizendo que ela assumiria total responsabilidade pelas ações de Bruce
+                    se eles o libertassem sob sua custódia. Embora não tenha mencionado o incidente ao marido, ela
+                    sugeriu que Bruce, sendo cidadão americano, voltasse para os Estados Unidos. O pai de Lee concordou,
+                    já que as perspectivas de Lee na faculdade, caso ele permanecesse em Hong Kong, não eram muito
+                    promissoras.</p>
+                <img class="item_foto_2" src="assets/image/William_Cheung_and_Bruce_Lee.jpg"
+                    alt="William Cheung e Bruce Lee">
+
+
+                <p class="text_2">Em abril de 1959, os pais de Lee decidiram mandá-lo para os Estados Unidos para ficar
+                    com sua irmã
+                    mais velha, Agnes Lee (李秋鳳), que já morava com amigos da família em San Francisco. Depois de vários
+                    meses, ele se mudou para Seattle em 1959 para continuar seus estudos do ensino médio, onde também
+                    trabalhou para Ruby Chow como garçom em seu restaurante. O marido de Chow era colega de trabalho e
+                    amigo do pai de Lee. O irmão mais velho de Lee, Peter Lee (李忠琛), também iria se juntar a ele em
+                    Seattle por uma curta estadia antes de ir para Minnesota para cursar a faculdade. Naquele ano, Lee
+                    também começou a ensinar artes marciais. Ele chamou o que ensinou de Jun Fan Gung Fu (literalmente,
+                    Kung Fu de Bruce Lee). Era basicamente sua abordagem ao Wing Chun.[34] Lee ensinou amigos que
+                    conheceu em Seattle, começando com o praticante de judô Jesse Glover, que continuou a ensinar
+                    algumas das primeiras técnicas de Lee. Taky Kimura se tornou o primeiro instrutor assistente de Lee
+                    e continuou a ensinar sua arte e filosofia após a morte de Lee.[35] Lee abriu sua primeira escola de
+                    artes marciais, chamada Instituto Lee Jun Fan Gung Fu, em Seattle.
+
+                    Em dezembro de 1960, Lee concluiu o ensino médio e recebeu seu diploma da Edison Technical School em
+                    Capitol Hill, em Seattle.
+
+                    Em março de 1961, Lee matriculou-se na Universidade de Washington e estudou artes dramáticas,
+                    filosofia, psicologia e várias outras disciplinas.[36][37] Apesar do que o próprio Lee e muitos
+                    outros afirmaram, a especialização oficial de Lee era drama em vez de filosofia, de acordo com um
+                    artigo de 1999 na publicação de ex-alunos da universidade.[38]
+
+                    Lee abandonou a faculdade no início de 1964 e mudou-se para Oakland para morar com James Yimm Lee.
+                    James Lee era vinte anos mais velho que Bruce Lee e um conhecido artista marcial chinês na área.
+                    Juntos, eles fundaram o segundo estúdio de artes marciais Jun Fan em Oakland. James Lee também foi
+                    responsável por apresentar Bruce Lee a Ed Parker, um artista marcial americano. A convite de Parker,
+                    Lee apareceu no Long Beach International Karate Championships de 1964 e realizou repetições de
+                    flexões de dois dedos (usando o polegar e o indicador de uma mão) com os pés separados
+                    aproximadamente na largura dos ombros. No mesmo evento de Long Beach, ele também deu o "soco de uma
+                    polegada".[39] Lee ficou em pé, o pé direito à frente com os joelhos ligeiramente flexionados, na
+                    frente de um parceiro parado em pé.
+
+                    O braço direito de Lee estava parcialmente estendido e seu punho direito estava a aproximadamente
+                    2,5 cm do peito do parceiro. Sem retrair o braço direito, Lee então deu o soco à força no voluntário
+                    Bob Baker enquanto mantinha amplamente sua postura, mandando Baker para trás e caindo em uma cadeira
+                    que teria sido colocada atrás de Baker para evitar lesões, embora o impulso de Baker logo o tenha
+                    feito cair no piso. Baker relembrou: "Disse a Bruce para não fazer esse tipo de demonstração
+                    novamente. Quando ele me deu um soco pela última vez, tive que ficar em casa sem trabalhar porque a
+                    dor em meu peito era insuportável".[40] Foi no campeonato de 1964 que Lee conheceu o mestre de
+                    Taekwondo Jhoon Goo Rhee. Os dois desenvolveram uma amizade — um relacionamento do qual se
+                    beneficiaram como artistas marciais. Rhee ensinou a Lee o chute lateral em detalhes, e Lee ensinou a
+                    Rhee o soco "não telegráfico". Rhee aprendeu o que chama de "accupunch" com Lee e incorporou-o ao
+                    taekwondo americano. O "accupunch" é um soco rápido e muito difícil de bloquear, baseado no tempo de
+                    reação humana — "a ideia é terminar a execução do soco antes que o oponente possa completar a
+                    comunicação cérebro-pulso".[41]
+
+                    Na Chinatown de Oakland, em 1964, Lee teve uma disputa particular com Wong Jack-man, um aluno direto
+                    de Ma Kin Fung, conhecido por seu domínio de Xingyiquan, Shaolin do Norte e T'ai chi ch'uan. De
+                    acordo com Lee, a comunidade chinesa emitiu um ultimato para ele parar de ensinar não chineses.
+                    Quando ele se recusou a obedecer, ele foi desafiado para uma partida de combate com Wong. O acordo
+                    era que se Lee perdesse, ele teria que fechar sua escola, enquanto se ganhasse, ele estaria livre
+                    para ensinar os brancos, ou qualquer outra pessoa.[42] Wong negou, afirmando que pediu para lutar
+                    contra Lee depois que ele se gabou durante uma de suas manifestações em um teatro de Chinatown que
+                    ele poderia vencer qualquer um em San Francisco, e que o próprio Wong não discriminou os brancos ou
+                    outros não-chineses.[43] Lee comentou: "Esse jornal tivesse todos os nomes dos sifu de Chinatown,
+                    mas eles não me assustam".[44] Indivíduos conhecidos por terem testemunhado a partida incluem
+                    Cadwell, James Lee (sócio de Bruce Lee, sem parentesco) e William Chen, um professor de T'ai chi
+                    ch'uan. Wong e William Chen afirmaram que a luta durou de 20 a 25 minutos inusitadamente
+                    longos.[43][45] Wong afirma que, embora originalmente tivesse esperado uma luta séria, mas educada,
+                    Lee o atacou agressivamente com a intenção de matar. Quando Wong apresentou o tradicional aperto de
+                    mão, Lee pareceu aceitar a saudação, mas em vez disso, Lee supostamente empurrou sua mão como uma
+                    lança apontada para os olhos de Wong. Forçado a defender sua vida, Wong, no entanto, afirmou que se
+                    absteve de golpear Lee com força mortal quando a oportunidade se apresentou porque poderia ter
+                    rendido a ele uma pena de prisão, mas usou algemas ilegais sob as mangas. De acordo com o livro de
+                    Michael Dorgan de 1980, Bruce Lee's Toughest Fight, a luta terminou devido à condição "invulgarmente
+                    sem fôlego" de Lee, em oposição a um golpe decisivo por qualquer um dos lutadores.[43] No entanto,
+                    de acordo com Bruce Lee, Linda Lee Cadwell e James Yimm Lee, a luta durou apenas três minutos com
+                    uma vitória decisiva para Lee. No relato de Cadwell, "A luta começou, foi uma luta sem barreiras,
+                    que durou três minutos. Bruce colocou esse cara no chão e disse 'Você desiste?' e o homem disse que
+                    desistiu".[42] Algumas semanas depois da luta, Lee deu uma entrevista alegando que havia derrotado
+                    um adversário não identificado, o que Wong diz ser uma referência óbvia a ele.[43][45]
+
+                    Em resposta, Wong publicou seu próprio relato da luta no Chinese Pacific Weekly, um jornal em língua
+                    chinesa em San Francisco, com um convite para uma revanche pública se Lee não estivesse satisfeito
+                    com o relato. Lee não respondeu ao convite, apesar de sua reputação de responder violentamente a
+                    todas as provocações,[43] e não houve mais anúncios públicos por parte de qualquer um, embora Lee
+                    continuasse a ensinar os brancos. Lee havia abandonado a ideia de seguir carreira no cinema em favor
+                    das artes marciais. No entanto, uma exibição de artes marciais em Long Beach em 1964 acabou levando
+                    ao convite do produtor de televisão William Dozier para uma audição para um papel no piloto de
+                    "Number One Son" sobre Lee Chan, o filho de Charlie Chan. O show nunca se materializou, mas Dozier
+                    viu potencial em Lee</p>
+
+
+
+
+            </div>
+        </main>
         <div class="anchors">
-            <h2>Neste Artigo</h2>
+            <h2>Bruce</h2>
             <ul>
-                <li><a href="#">Âncoras</a></li>
+                <li><a href="https://www.youtube.com/watch?v=wiJv7HJZCXM" target="_blank">Vida do Bruce Lee</a></li>
             </ul>
+            <img src="assets/image/bruce_2.jpg" alt="Bruce lee-foto" width="150">
         </div>
     </div>
 
-    <div class="footer">
+    <footer>
+        <div class="footer">
+            <p>Desenvolvido por <i> <strong> @Wellington Santos</strong></i></p>
+            <address>
+                Rua: Antonio Mariano de Abreu - Conj. Paulo VI<BR>
+                Cidade: Belo Horizonte - MG<br>
+                CEP: 31995-000 ----- ZAP: (31)9 8927-3777
+            </address>
+        </div>
 
-    </div>
+    </footer>
 </body>
+
 </html>
